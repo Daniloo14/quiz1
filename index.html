@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>US State Flags 3D Clustering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    #root { width: 100vw; height: 100vh; }
+  .cluster-list { position: absolute; top: 10px; right: 10px; background: #fff; padding: 6px; border-radius: 6px; max-height: 70vh; overflow-y: auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); font-size: 13px; min-width: 160px; }
+  .cluster { margin-bottom: 10px; }
+  .state-thumb { width: 24px; height: 15px; object-fit: cover; margin-right: 6px; vertical-align: middle; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
